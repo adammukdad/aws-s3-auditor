@@ -1,11 +1,9 @@
----
-title: "AWS S3 Auditor: Cloud Storage Visibility &amp; Access Assessment Tool"
-date: 2025-05-01
-categories: 
-  - "projects"
----
+# AWS S3 Auditor – Cloud Storage Visibility & Access Assessment Tool
 
-![](images/auditing-aws-cloud-security-with-python.png)
+This Python-based tool audits AWS S3 buckets to detect overly permissive access configurations, public exposures, and insecure policies. It uses the Boto3 library to query cloud storage metadata and permissions, helping security teams quickly identify risks.
+
+🔍 Use case: Detect public buckets, misconfigured access control lists, and policy issues that could lead to data leaks.
+
 
 ### **Purpose**
 
