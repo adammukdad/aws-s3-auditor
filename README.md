@@ -2,9 +2,10 @@
 ![Platforms](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)  
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
 ![AWS](https://img.shields.io/badge/Cloud-AWS-orange)  
-![GitHub stars](https://img.shields.io/github/stars/adammukdad/aws-s3-auditor?style=social)  
-![GitHub forks](https://img.shields.io/github/forks/adammukdad/aws-s3-auditor?style=social)  
-![GitHub issues](https://img.shields.io/github/issues/adammukdad/aws-s3-auditor)  
+[![GitHub stars](https://img.shields.io/github/stars/adammukdad/aws-s3-auditor?style=social)](https://github.com/adammukdad/aws-s3-auditor/stargazers)  
+[![GitHub forks](https://img.shields.io/github/forks/adammukdad/aws-s3-auditor?style=social)](https://github.com/adammukdad/aws-s3-auditor/network/members)  
+[![GitHub issues](https://img.shields.io/github/issues/adammukdad/aws-s3-auditor)](https://github.com/adammukdad/aws-s3-auditor/issues)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/adammukdad/aws-s3-auditor/blob/main/LICENSE)  
 
 ---
 
@@ -176,3 +177,7 @@ This isn’t just a script—it’s a **portfolio-grade project** designed to im
 🔗 [GitHub Portfolio](https://github.com/adammukdad)  
 🌐 [LinkedIn](https://www.linkedin.com/in/adammukdad/)  
 📍 Chicago, IL  
+
+
+---
+📚 [Back to Table of Contents](#table-of-contents)
