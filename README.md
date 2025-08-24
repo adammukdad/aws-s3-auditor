@@ -174,4 +174,4 @@ This isn’t just a script—it’s a **portfolio-grade project** designed to im
 
 
 ---
-📚 [Back to Table of Contents](#table-of-contents)
+📚 [📚 Back to Table of Contents](#-table-of-contents)
