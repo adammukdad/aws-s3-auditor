@@ -26,6 +26,8 @@
 
 ---
 
+[⬆️ Back to top](#-table-of-contents)
+
 ## Overview  
 AWS S3 Auditor is a **Python-based command-line utility** that performs a **comprehensive audit of AWS S3 buckets**.  
 It provides visibility into **bucket security posture, public access status, object counts, storage usage, encryption, and versioning**—with results exported to **CSV and JSON reports** for compliance, security reviews, and cost optimization.  
@@ -33,6 +35,8 @@ It provides visibility into **bucket security posture, public access status, obj
 Designed for **cloud security engineers, DevOps, and AWS administrators**, this tool ensures your S3 environments are audited quickly, securely, and with actionable insights.  
 
 ---
+
+[⬆️ Back to top](#-table-of-contents)
 
 ## Key Features  
 - 🔒 **Security Posture Analysis**: Detects public access via ACLs, policies, and block settings.  
@@ -43,9 +47,9 @@ Designed for **cloud security engineers, DevOps, and AWS administrators**, this 
 - ⚡ **Role Assumption**: Supports AWS IAM role assumption for cross-account audits.  
 - 🧩 **Error Handling**: Graceful handling of access-denied or missing permissions.  
 
-  
-
 ---
+
+[⬆️ Back to top](#-table-of-contents)
 
 ## Qualified & Quantified Impact  
 - ✅ Audited **100% of S3 buckets** in an account within seconds.  
@@ -54,6 +58,8 @@ Designed for **cloud security engineers, DevOps, and AWS administrators**, this 
 - ✅ Ensured **encryption compliance** across all S3 storage.  
 
 ---
+
+[⬆️ Back to top](#-table-of-contents)
 
 ## Objectives Met  
 - Enhance AWS security visibility.  
@@ -65,6 +71,8 @@ Designed for **cloud security engineers, DevOps, and AWS administrators**, this 
 
 ---
 
+[⬆️ Back to top](#-table-of-contents)
+
 ## Sample Log Output  
 ```bash
 - cli-user-s3audit-testbucket-01 | us-east-2 | Private | 2 objs | 0.01 MB | Versioning: Disabled | Encryption: Disabled
@@ -75,6 +83,8 @@ Designed for **cloud security engineers, DevOps, and AWS administrators**, this 
 ```
 
 ---
+
+[⬆️ Back to top](#-table-of-contents)
 
 ## Project Structure  
 ```bash
@@ -90,6 +100,8 @@ s3_auditor/
 
 ---
 
+[⬆️ Back to top](#-table-of-contents)
+
 ## Tech Stack  
 - **Python 3.8+**  
 - **boto3 (AWS SDK for Python)**  
@@ -97,6 +109,8 @@ s3_auditor/
 - **CSV & JSON reporting**  
 
 ---
+
+[⬆️ Back to top](#-table-of-contents)
 
 ## How to Run  
 1. Clone the repository:  
@@ -121,9 +135,9 @@ s3_auditor/
    - `--out-json` : Export results as JSON.  
    - `--quiet` : Suppress console output (only reports generated).  
 
-  
-
 ---
+
+[⬆️ Back to top](#-table-of-contents)
 
 ## Screenshots  
 ### AWS Console Buckets  
@@ -137,6 +151,8 @@ s3_auditor/
 
 ---
 
+[⬆️ Back to top](#-table-of-contents)
+
 ## Future Enhancements  
 - 🔍 Add **CloudTrail integration** for access monitoring.  
 - 📌 Integrate with **AWS Config** for compliance automation.  
@@ -145,6 +161,8 @@ s3_auditor/
 
 ---
 
+[⬆️ Back to top](#-table-of-contents)
+
 ## Challenges & Lessons Learned  
 - Learned how AWS **ACLs, bucket policies, and block settings** interact.  
 - Encountered **cross-region S3 API calls**, resolved by dynamically fetching bucket regions.  
@@ -152,6 +170,8 @@ s3_auditor/
 - Practiced **secure AWS role assumption** for compliance across multiple accounts.  
 
 ---
+
+[⬆️ Back to top](#-table-of-contents)
 
 ## Key Takeaways for Hiring Managers  
 This project demonstrates:  
