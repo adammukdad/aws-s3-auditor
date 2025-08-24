@@ -35,9 +35,6 @@ Designed for **cloud security engineers, DevOps, and AWS administrators**, this 
 ---
 
 ## Key Features  
-<details>
-<summary>Expand</summary>
-
 - 🔒 **Security Posture Analysis**: Detects public access via ACLs, policies, and block settings.  
 - 📊 **Detailed Inventory**: Object count, bucket size, region, and versioning.  
 - 🛡 **Encryption Check**: Reports on default server-side encryption status.  
@@ -46,7 +43,7 @@ Designed for **cloud security engineers, DevOps, and AWS administrators**, this 
 - ⚡ **Role Assumption**: Supports AWS IAM role assumption for cross-account audits.  
 - 🧩 **Error Handling**: Graceful handling of access-denied or missing permissions.  
 
-</details>  
+  
 
 ---
 
@@ -102,9 +99,6 @@ s3_auditor/
 ---
 
 ## How to Run  
-<details>
-<summary>Expand</summary>
-
 1. Clone the repository:  
    ```bash
    git clone https://github.com/adammukdad/aws-s3-auditor.git
@@ -127,7 +121,7 @@ s3_auditor/
    - `--out-json` : Export results as JSON.  
    - `--quiet` : Suppress console output (only reports generated).  
 
-</details>  
+  
 
 ---
 
